@@ -1,0 +1,66 @@
+/* Add your CSS styles here */
+
+/* Main container styles */
+.qwert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Form container styles */
+  .asdfg {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Header styles */
+  .zxcvb {
+    text-align: center;
+  }
+  
+  /* Input field styles */
+  .lkjh,
+  .comp,
+  .sick,
+  .bara,
+  .biol,
+  .bota {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Submit button styles */
+  .query {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a4c4e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Link styles */
+  .Link {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #8e9499;
+    text-decoration: none;
+  }
+
+  .qwert{
+    background: url('info.jpg') no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  

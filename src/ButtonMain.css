@@ -1,0 +1,75 @@
+/* Styles for the ButtonComponent container */
+.buttonMainer-container {
+     
+        max-width: 25%;
+        margin: 0 auto;
+        padding : 10px;
+        marrgin-top:100px;
+        border: 1px solid #000000;
+        border-radius: 5px;  
+        padding-left:44px ;
+       
+      }
+  
+  
+  /* Styles for the buttons */
+  .buttonMainer-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .buttonMainer-container button:hover {
+    background-color: #616468;
+  }
+  
+  /* Specific styles for each button */
+  .buttonMainer-container .buttondd {
+    background-color: #9ea3af;
+    width:300px;
+
+  }
+  
+  .buttonMainer-container .buttondd1 {
+    background-color: #9ea3af;
+    width:300px;
+
+  }
+  
+  .buttonMainer-container .buttondd2 {
+    background-color: #9ea3af;
+    width:300px;
+
+  }
+  
+  .buttonMainer-container .buttondd3 {
+    background-color: #9ea3af;
+    width:300px;
+  }
+  
+  /* Animation for the buttons */
+  .buttonMainer-container button {
+    transform: scale(1);
+    transition: transform 0.2s ease;
+  }
+  
+  .buttonMainer-container button:hover {
+    transform: scale(1.05);
+  }
+  
+  .duck{
+    background: url('info.jpg') no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
